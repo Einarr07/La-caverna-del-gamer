@@ -14,11 +14,13 @@ public class Entregable {
         }
         return false;
     };
+    /*
     public int compareTo(Object a){
-        /* Comparar horas estimadas en los videojuegos
+        // Comparar horas estimadas en los videojuegos
             y en las series el número de temporadas
-         */
+
 
     };
+    */
 
 }
