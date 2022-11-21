@@ -74,4 +74,11 @@ public class Videojuegos {
     public void setCompania(String compania) {
         this.compania = compania;
     }
+    public String toString(){
+        return "Informacion del videojuego: \n" +
+                "\tTitulo: "+titulo+"\n" +
+                "\tHoras estimadas: "+horasEstimadas+"\n" +
+                "\tGenero: "+genero+"\n" +
+                "\tcompañia: "+compania;
+    }
 }
