@@ -60,4 +60,11 @@ public class Serie {
     public void setCreador(String creador) {
         this.creador = creador;
     }
+    public String toString(){
+        return "Informacion de la Serie: \n" +
+                "\tTitulo: "+titulo+"\n" +
+                "\tNumero de temporadas: "+numero_de_temporadas+"\n" +
+                "\tGenero: "+genero+"\n" +
+                "\tCreador: "+creador;
+    }
 }
