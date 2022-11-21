@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Videojuegos {
 
     //ATRIBUTOS
@@ -27,6 +29,17 @@ public class Videojuegos {
         //entregado = false;
         genero = "";
         compania = "";
+    }
+
+    //METODOS
+
+    Scanner entrada = new Scanner(System.in);
+    public void toString(Videojuegos datos1){
+        System.out.println("Titulo: ");
+        datos1.setTitulo(entrada.nextLine());
+        System.out.println("Horas Estimadas: ");
+        datos1.setHorasEstimadas(5);
+        System.out.println("Entregado: ");
     }
 
     //SETTER AND GETTER
